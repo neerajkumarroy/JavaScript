@@ -63,6 +63,7 @@ Table of Three:
 Table of Four:
 4 * 1 = 4
 4 * 2 = 8
+4 * 3 = 12
 4 * 4 = 16
 4 * 5 = 20
 4 * 6 = 24
