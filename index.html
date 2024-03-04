@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is the practice JavaScript file</title>
+</head>
+
+<body>
+    <!-- ////////-- SORT AND REVERSE METHOD ---///////// -->
+    <!-- <script>
+        var a = ["neeraj", "rohit", "yougesh","ajeet"];
+        document.write(a + "</br>");
+        a.sort();
+        document.write(a );
+    </script> -->
+
+    <!-- <script>
+        var a = ["neeraj", "rohit", "yougesh","ajeet"];
+        document.write(a + "</br> </br>");
+       a.reverse();
+        document.write(a );
+    </script> -->
+
+
+    <!-- /////////--- POP AND PUSH METHOD-----///////// -->
+
+    <!-- <script>
+        var a = ["neeraj", "rohit", "yougesh","ajeet"];
+        document.write(a + "</br> </br>");
+       a.pop();
+        document.write(a );
+    </script> -->
+
+
+    <!-- <script>
+        var a = ["neeraj", "rohit", "yougesh","ajeet"];
+        document.write(a + "</br> </br>");
+       a.push("Amit");
+        document.write(a );
+    </script> -->
+
+    <!-- /////////--- SHIFT AND PUSH UNSHIFT-----///////// -->
+
+
+    <!-- <script>
+        var a = ["neeraj", "rohit", "yougesh","ajeet"];
+        document.write(a + "</br> </br>");
+       a.shift();
+        document.write(a );
+    </script>
+     -->
+
+
+    <!-- <script>
+        var a = ["neeraj", "rohit", "yougesh","ajeet"];
+        document.write(a + "</br> </br>");
+       a.unshift("Nitin");
+        document.write(a );
+    </script> -->
+
+    <!-- /////////--- CONCAT AND JOIN METHOD-----///////// -->
+
+    <!-- <script>
+    var a = ["neeraj", "rohit", "yougesh"];
+    var b = ["Abhijeet", "ramandeep", "ramit"];
+    document.write(a + "</br> </br>");  
+    var c = a.concat(b) 
+    var d = c.concat("namnite")
+    document.write(c);
+</script> -->
+
+    <!-- <script>
+    var a = ["neeraj", "rohit", "yougesh","ajeet"];
+    var b = ["Abhijeet", "ramandeep", "ramit"];
+
+    document.write(a + "</br> </br>");
+   var c = a.join("-");
+    document.write(c );
+</script>  -->
+
+    <!-- /////////--- SLICE AND JOIN SPLICE-----///////// -->
+
+    <!-- <script>
+        var a = ["neeraj", "rohit", "yougesh", "ajeet"];
+        document.write(a + "</br> </br>");
+        var b = a.slice(-3,-1); // Its take negative & positive indexing
+        document.write(b);
+    </script> -->
+
+    <!-- <script>
+        var a = ["neeraj", "rohit", "yougesh", "ajeet"];
+        document.write(a + "</br> </br>");
+        a.splice(2, 0, "Amit","naman"); // Its take negative & positive indexing
+        document.write(a);
+    </script> -->
+
+    <!-- ////////--- isArray METHOD-------/////// -->
+
+    <!-- <script>
+        // var a = ["neeraj", "rohit", "yougesh", "ajeet"];
+        var a = 21;
+        document.write(a + "</br> </br>");
+
+        if (Array.isArray(a)) {
+            document.write("This is an Array");
+        }
+        else {
+            document.write("This is not an array....!")
+        }
+
+    </script> -->
+
+
+    <!-- ///////---- indexOf() & lastIndexOf() function -------//////    -->
+
+    <!-- <script>
+
+        var a = ["neeraj", "rohit", "yougesh", "ajeet"];
+        document.write(a + "</br> </br>");
+        // var b = a.indexOf("ajeet");
+        var b = a.indexOf("ajeet", 2);
+        document.write(b)
+
+    </script> -->
+
+    <!-- <script>
+
+        var a = ["neeraj", "rohit", "yougesh", "ajeet"];
+        document.write(a + "</br> </br>");
+        // var b = a.indexOf("ajeet");
+        var b = a.lastIndexOf("rohit", 2);
+        document.write(b)
+
+    </script> -->
+
+    <!-- ///////---- Array includes() function -------//////    -->
+
+<!-- <script>
+            var a = ["neeraj", "rohit", "yougesh", "ajeet"];
+            document.write(a + "</br> </br>");
+            var b = a.includes("ajeet");
+            if(b){
+                document.write("This name is exist in the Array")
+            }else{
+                document.write("This name is not  exist in the Array");
+   
+            }
+            document.write(b);
+</script> -->
+
+<script>
+
+// let a = [1,2,3,4,5,6,7,2,3,4];
+// a.length=3
+//  document.write(a + "</br> </br>");
+
+//sum
+
+// let sum = a.reduce((x,y)=>x+y);
+// document.write(sum + "</br> </br>");
+
+//Unique
+// let unique = new Set(a);
+// document.write([...unique]+ "</br> </br>");
+
+//comma method
+// let x = 20;
+// let y = 10;
+// x=(x+=20,10);
+// document.write(x+ "</br> </br>");
+
+//Swap with dirstract
+let a = 10;
+let b = 20;
+[a,y]=[b,a];
+document.write("a="+a+ "</br> </br>"+ "b=" +b);
+
+
+
+
+
+</script>
+
+</body>
+
+</html>
